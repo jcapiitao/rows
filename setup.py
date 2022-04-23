@@ -47,7 +47,6 @@ EXTRA_REQUIREMENTS = {
 EXTRA_REQUIREMENTS["all"] = sum(EXTRA_REQUIREMENTS.values(), [])
 INSTALL_REQUIREMENTS = [
     "dataclasses",
-    "pathlib",
     "six",
     "requests",
 ] + EXTRA_REQUIREMENTS["csv"]
