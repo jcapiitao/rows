@@ -36,6 +36,8 @@ from textwrap import dedent
 
 import six
 
+from .orderable_mapping import OrderableMapping
+
 try:
     import requests
     from requests.adapters import HTTPAdapter
